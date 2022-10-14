@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 7</title>
+</head>
+<body>
+    <h2>Formulir Pendaftaran</h2>
+    <form action="">
+        <label for="nama">Nama Saya: </label>
+        <input type="text" name="nama_depan" id="nama_depan" placeholder="Nama Depan"/> <input type="text" name="nama_belakang" id="nama_belakang" placeholder="Nama Belakang"/> <br/>
+        
+        <label for="jk">Jenis Kelamin: </label>
+        <select name="jk" id="jk">
+            <option value="" disabled selected>- Pilih Satu-</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select> <br/>
+
+        <label for="tanggal_lahir">Tanggal lahir: </label>
+        <input type="date" name="tanggal_lahir" id="tanggal_lahir" /> <br/>
+
+        <label for="Kewarganegaraan">Saya tinggal di: </label>
+        <select name="Kewarganegaraan" id="Kewarganegaraan">
+            <option value="" disabled selected>- Pilih Satu-</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Amerika Serikat">Amerika Serikat</option>
+            <option value="Malaysia">Malaysia</option>
+        </select> <br/>   
+        
+        <label for="alamat" style="vertical-align: top;">Alamat: </label>
+        <textarea name="alamat" id="alamat" cols="30" rows="5"></textarea>
+
+        <label for="nilai_pretest">Nilai Pretest: </label>
+        <input type="number" name="nilai_pretest" id="nilai_pretest" /> <br/>
+
+        <label for="hobi">Hobi: </label> <br/>
+        <input type="checkbox" name="hobi[]" id="hobi1" value="Gaming" />
+        <label for="hobi1">Gaming</label> <br/>
+        <input type="checkbox" name="hobi[]" id="hobi2" value="Coding" />
+        <label for="hobi2">Coding</label>
+        <input type="checkbox" name="hobi[]" id="hobi1" value="Hiking" />
+        <label for="hobi3">Hiking</label><br/><br/>
+
+        <label for="mapel">Mata Pelajaran Favorit: </label> <br/>
+        <input type="radio" name="hobi[]" id="mapel" value="Matematika" />
+        <label for="mapel1">Gaming</label> <br/>
+        <input type="radio" name="hobi[]" id="mapel2" value="Fisika" />
+        <label for="mapel2">Fisika</label>
+        <input type="radio" name="hobi[]" id="mapel3" value="Ekonomi"/>
+        <label for="mapel3">Ekonomi</label>
+
+        <br/><br/>
+
+
+        <input type="submit" value="Simpan" />
+        <input type="reset" value="Hapus" />
+
+    </form>
+    
+</body>
+</html>
